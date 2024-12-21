@@ -1,0 +1,6 @@
+yapılacaklar ve yapılanlar listesi. 
+pip install langchain transformers pypdf2 streamlit (kullandığımız kütüphaneler) "tamam
+Metin Temizleme: PDF'den alınan metni özetleme öncesi temizlemek (örn. gereksiz boşlukları kaldırmak) daha iyi sonuçlar verir.
+Alternatif Modeller: Eğer uzun metin özetlemede problem yaşıyorsanız, daha güçlü bir model seçebilirsiniz.
+Tablo ve Görseller: Eğer PDF'lerde tablo veya görsel bilgisi varsa, bunları işlemek için OCR teknolojilerini entegre etmeyi düşünebilirsiniz.
+

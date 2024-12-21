@@ -1,0 +1,13 @@
+streamlit
+PyPDF2
+transformers
+torch
+tensorflow
+tensorflow[and-cuda]
+langdetect
+langid 
+
+pip install streamlit PyPDF2 transformers torch tensorflow tensorflow[and-cuda]
+
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124

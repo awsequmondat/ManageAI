@@ -1,0 +1,596 @@
+  
+ 
+Abstract — For the last 40 years high – capacity Unmanned 
+Air Vehicles have been use mostly for military services such as 
+tracking, surveillance, engagement with active weapon or in the 
+simplest term for data acquisition purpose. Unmanned Air 
+Vehicles are also demanded commercially because of their 
+advantages in comparison to manned vehicles such as their low 
+manufacturing and operating cost, configuration flexibility 
+depending on customer request, not risking pilot in the difficult 
+missions. Nevertheless, they have stil l open issues such as 
+integration to the manned flight air space, reliability and 
+airworthiness. Although Civil Unmanned Air Vehicles 
+comprise 3% of the UAV market, it is estimated that they will 
+reach 10% level within the next 5 years. UAV systems with 
+their useful equipment (camera, hyper spectral imager, air data 
+sensors and with similar equipment) have been in use more and 
+more for civil applications:  
+ Tracking and monitoring in the event of agriculture / 
+forest / marine pollution  / waste / emergency an d 
+disaster situations  
+ Mapping for land registry and cadastre  
+ Wildlife and ecologic monitoring,  
+ Traffic Monitoring and  
+ Geology and mine researches  
+They can bring minimal risk and cost advantage to many 
+civil applications, in which it was risky and costly to use 
+manned air vehicles before.  When the cost of Unmanned Air 
+Vehicles designed and produced for military service is taken 
+into account, civil market demands lower cost and original 
+products which are suitable for civil applications. Most of civil 
+appli cations which are mentioned above require UAVs that are 
+able to take off and land on limited runway, and moreover 
+move quickly in the operation region for mobile applications 
+but hover for immobile measurement and tracking when 
+necessary. This points to a hybrid unmanned vehicle concept 
+ 
+*Res earch  supported by the Republic of Turkey, Ministry of Science, 
+Industry and Technology  
+U. O., Author  is a PhD Candidate at the Istanbul Technical University , 
+Faculty of Aeronautics and Astronautics, 34469, Istanbul, Turkey 
+(corresponding author to provide e -mail: ugur.ozdemir@itu.edu.tr ).  
+O. A., Author  is a MSc Student , at the Istanbul Technical University, 
+Faculty of Aeronautics and Astronautics, 34469, Istanbul, Turkey (e-mail: 
+orktaktas@gmail.com ). 
+K.D, A.E.  and G.D.K are with the HAVELSAN A.S., M. Kemal Mah. 
+2120. Cat. No:39, 06510, Cankaya, Ankara  
+I.O., Author is a Prof. at the Istanbul Technical University, Faculty of 
+Aeronautics and Astronautics, 34469, Istanbul, Turkey (e -mail: 
+ozkol@itu.edu.tr).  
+G. İ.  is a Assoc. Prof. at the Istanbul Technical University, Faculty of 
+Aeronautics and Astronautics, 344 69, Istanbul, Turkey (e -mail: 
+inalhan@itu.edu.tr).  optimally, namely the Vertical Take Off and Landing (VTOL) 
+UAVs. At the same time, this system requires an efficient cost 
+solution for applicability / convertibility for different civil 
+applications. It means an Air Vehicle having easily portability 
+of payload depending on application concept and 
+programmability of operation (hover and cruise flight time) 
+specific to the application.  
+The main topic of this project is designing, producing and 
+testing the TURAC  VTOL UAV that ha ve the following 
+features:  
+ Vertical takeoff and landing, and hovering like 
+helicopter  
+ High cruise speed and fixed -wing  
+ Multi -functional and designed for civil purpose  
+ The project involves two different variants:  
+ The TURAC  A variant is a fully electrical platform 
+which includes 2 tilt electric motors in the front, and a 
+fixed electric motor and ducted fan in the rear.  
+ The TURAC B  variant  uses fuel cells.  
+ 
+I. INTRODUCTION  
+Unmanned air vehicles have been mostly used for military  
+services such as tracking, surveillance, engagement with 
+active weapons or in the simplest term for data acquisition 
+purposes. Although u nmanned air vehicles are also 
+demanded  commercially because of their low manufacturing 
+and operating costs, configuration flexibility depending on 
+customer request, not risking pilot in the difficult missions 
+[1], nevertheless they have still open issues such as 
+integration to the manned fligh t air space, reliability and 
+flight safety.  
+Although civil purpose unmanned air vehicles make up 3 
+percent of total UAV market, it is estimated that within the 
+next 5 years they will constitute 10 percent of the UAV 
+market [6].  UAV systems with attached pa yloads (camera 
+hyper spectral imager, air data sensors and similar apparatus) 
+find new areas of utilization  at numerous civilian processes  
+such as:  
+ Tracking and monitoring in the event of 
+agriculture / forest / marine pollution waste / 
+emergency and disast er situations  [3] 
+ Mapping for land registry and cadastre [2]  
+ Wildlife and ecologic monitoring [4]  
+ Traffic Monitoring [7]  Design  of a Commercial H ybrid VTOL UA V System  
+Ugur Ozdemir , Yucel Orkut Aktas , Karaca Demirbag , Ahmet Erdem  
+Ganime Duygu Kalaycıog lu, Ibrahim Ozko l, Gokhan Inalhan  2013 International Conference on Unmanned Aircraft Systems (ICUAS)
+May 28-31, 2013, Grand Hyatt Atlanta, Atlanta, GA
+978-1-4799-0817-2/13/$31.00 ©2013 IEEE 214  
+ Geology and mine researches  
+ Gas leakage [16]  
+ Vegetation monitoring [17,18,19]  
+ Plant and forest species identification [20,22]  
+ Climate c hange studies [23]  
+ Environmental Damage [21]  
+Rugged hyperspectral  imagers [15] with small payloads 
+(2.7kg) are planned to be used with TURAC . The payload s 
+are assumed to  consume  power  from their own power 
+supply.  
+They can bring minimal risk and cost advantage to a lot of 
+civil applications, in which it was risky and costly to use 
+manned air vehicles previously . Subject to area o f usage and 
+body type, they may come with various form factors as 
+follows:  
+ Fixed Wing UA V [3]  
+ Lighter -than-air UAV [3]  
+ Unusual Design UAV ( Quad rotor , etc.) [3]  
+ Vertical Take -off and Landing UAV [3,5]  
+ Rotating Wing UAV [3,5]  
+ Tilt-rotor / Tilt -wing [5]  
+ Tail-sitter [5]  
+ Thrust -Reserving [5]  
+When cost s of  unmanned air vehicles designed and 
+produced for military purposes are taken into account, civil 
+aviation market requires products oriented at its own type of 
+processes with lower cost and original design. Most of the 
+civil applications mentioned above req uire UAVs that are 
+able to take off and land on limited runways, and move 
+quickly in the operation region for mobile applications, but 
+hover for static  measurement and tracking when necessary. 
+This properties depicts a hybrid unmanned air vehicle 
+concept, in other words VTOL UAV . At the same time, this 
+kind of system requires an efficient cost solution for 
+applicability / convertibility for different kinds of civil 
+applications. This, in turn, means an air vehicle having a 
+seamless portability of payload de pending on application 
+concept and programmability of operation (hover and cruise 
+flight time) specific to the application.  
+The main topic of this project is designing, 
+manufacturing, and testing the TURAC  VTOL UAV that 
+have the following features.  
+ Vertica l take -off and landing, and hovering like a 
+helicopter  
+ Fixed -wing with high cruise speed capability  and 
+long range  
+ Multi -functional and specifically designed for 
+civil purpose  TURAC  Concept is given at Fig. 1. 
+ 
+ 
+Fig. 1: TURAC  Concept  
+ 
+VTOL UAVs are aimed for combining the advantages of 
+unmanned helicopter and conventional UAVs. They can 
+have the capability of vertical take -off and landing such as 
+unmanned helicopters, and high cruise speed such as 
+conventional UAVs.  Thus, VTOL UAVs can carry out take-
+off a nd landing operations even at hazardous environments 
+not suitable for take -off and landing, and at the same time 
+can reach target operation point in a short time frame. Also, 
+a VTOL UAV in a cruise flight mode can change its mode to 
+hover mode. This proper ty allows it to realize several 
+missions with higher performance than unmanned 
+helicopters and conventional UAVs [8, 10].  
+Helicopters hold the upper hand at the operations  that 
+requires several flight modes such as switching to hover 
+mode from high speed c ruise mode.  VTOL UAVs can 
+realize this operations like a helicopter. While helicopters 
+have advantages over both VTOL and conventional aircrafts 
+at vertical flight, because of pitch up at rotor pals curling 
+backwards, they have performance restrictions  at lateral 
+flight. VTOL UAVs do not have these performance 
+restrictions of helicopters in horizontal flight. Moreover, as 
+long as big rotor systems are not used, their mechanical 
+design are simpler [8, 10].  
+Hovering and flying at low altitudes like helicopters are 
+the main advantages of VTOL UAVs. Efficiency of VTOL 
+air vehicles at hovering is lower than helicopters due to 
+smaller effective rotor area. However, if hovering time is 
+similar to cruise flight tim e, than VTOL aircrafts have 
+higher composite efficiency due to their better cruise flight 
+performance  [8, 10].  
+Conventional UAVs necessitates a runway, cannot take -
+off from and land to everywhere. However, their lateral 
+flight performance are higher than h elicopter systems. While 
+VTOL aircrafts can fly at speeds as higher as conventional 
+UAVs, additional weight due to vertical take -off/landing 
+systems lowers their payload capacity with respect to 
+conventional system. Nonetheless, high thrust / weight ratio 
+215  
+of VTOL UAVs enable better manoeuvring  ability than 
+conventional UAVs, but this brings additional control 
+difficulties. Control problems can be overcome by autopilot 
+systems [8, 10].  
+ VTOL UAVs combine the advantages of helicopters and 
+fixed -wing aircraft such as  their vertical take -off and landing 
+capacity, better manoeuvring ability, high cruise speed and 
+omnidirectional controllability. While VTOL UAV can fly 
+at similar speed with fixed -wing aircraft, they can also hover 
+like a helicopter. While their ef ficiency is lower than the 
+vehicles that are designed for only hover flight regime or 
+horizontal flight regime, their composite efficiency is higher 
+because of possessing these two flight regimes [8, 10].  
+Evolution history of VTOL systems [10], developed 
+VTOL UAV Design Technology [8], existing criterions [10], 
+comparison with conventional and helicopter systems [8, 
+10], and future prediction [8] can be reached by the given 
+sources.  
+ 
+II. THE CONCEPT OF THE TURAC  TILT ROTOR UAV  
+Following properties are taken int o account for the UAV 
+that will be designed and manufactured inside the project 
+scope.  
+ Lower cost than military UAV.  
+ Vertical take -off and landing capability (for all 
+types of terrain).  
+ Hovering  
+ Ease of portability and packaging  
+ Ability to work with differ ent kinds of payloads  
+ Mobile ground station  
+In addition to these, minimum target performance 
+criterions for VTOL UAV are given as follows:  
+ 1 hour cruise + 15 minutes  hovering + 15 
+minutes take -off and landing  
+ 35 km operation radius (70 km range)  
+ 5 kg payload (hyper spectral imager, or 
+potentially additional devices such as RGB 
+Camera, Thermal Camera, Emission  
+Measurement Device)  
+ 20 m/s cruise speed  
+ Automatic take -off – landing – flight  
+A. First Configuration  
+Aircraft geometry and configuration in Fig. 2 is conceived 
+taking the requirements into consideration.  
+ 
+  
+Fig.: 2 TURAC  Concept  Design  
+Portability is at the forefront at TURAC  concept. In the 
+design process, a concept that allows folding aircraft wings, 
+wings with varying dimensions and replaceable body options 
+is used as a base.  TURAC  system, which consists of 3 parts, 
+namely main body and edge wings, can be mounted easily 
+and it can be fitted in a considerably small volume with 
+respect to its size. This way, it can be easily transported with 
+vehicles such as SUV and truck.  
+Also, structure , which is formed by integrating the wings 
+and the body , is more rigid than other conventional systems 
+and allows vehicle to respond sharp manoeu vre needs. 
+TURAC  can start mission from over another aircraft or 
+helicopter. As a propulsion system, a stationary engine at the 
+back and two tilt motors at the front is planned.  
+TURAC  VTOL UAV, which can adapt to different 
+mission conditions with its prope rties given above, can take -
+off from and land to partly  flattened  dirt runways , or using a 
+catapult system, can start its mission by launching from 
+ships or land vehicles if desired.   
+ 
+III. INITIAL SIZING  
+A.  Weight Estimations  
+As the thrust produced by all of the motors is used to 
+counter the weight of the aircraft, T/W ratio is chosen as 1.3.  
+A trade -off study is carried out to determine correlation 
+between total endurance time and payload capacity of the 
+aircraft ( Fig. 3). 
+ 
+Fig. 3: Payload –Endurance time  comparison  
+0510152025
+0 50 100 150 200Useful Pyaload  (kg)  
+Total endurance (min.)  Hybrid System MTOW 46  
+Total Endurance - Useful payload  216  
+Most of the power consumption of VTOL systems is 
+occurred at vertical take -off & landing and hover stages. 
+Moreover, increasing the flight time is another parameter 
+which  raise s the power needs. For these reasons, consumed 
+power approach is use d to calculate take -off weight and 
+sizing  of TURAC .  
+TURAC  system has two flight condition; cruise flight and 
+vertical flight.  
+Total power consumption of the system is calculated 
+according to the mission profile and maximum take -off 
+weight of the TURAC  is determined with iterative 
+calculations.   
+ 
+B.  Wing Geometry  
+Aerodynamic efficiency of TURAC  VTOL UAV  reached 
+its peak with “blended wing” design ( Fig. 2). With this 
+design, usable interior space is much bigger than 
+conventional systems, and this allow s user to mount different 
+payloads with greatly varying sizes. As the aircraft acquires 
+lifting force from the whole structure, it can carry higher 
+number of payloads than similar sized aircrafts.  
+TURAC  is a blended wing design and l ift is generated 
+from both fuselage and attachable wing s. There is no tail 
+structure to balance moment over the airfoil. For this reason, 
+reflex airfoils are used on aircraft to balance moments which 
+is occurred from generating lift. Differ ent custom designs of 
+reflex airfoils are used on TURAC  to enhance lift capacity 
+while holding the drag at acceptable level.  
+ 
+Fig. 4: Figure A: cruise mode, F igure B : hover and vertical 
+flight mode  
+ 
+Wing shaped f uselage and attachable wings  are designed 
+with swept wing for making TURAC  more stable. In 
+addition, winglets are used to make aircraft aerodynamically 
+more efficient. Also winglets are used as control surfaces for 
+controlling yaw manoeuvres.  
+Wing sizing process is done after estimating maximum 
+take-off weight. The primary point  while making wing sizing 
+calculations  is stall speed because TURAC  makes vertical 
+take-off/landing and cruise flight. Aircraft  needs to slow 
+down until  tilted propeller and main lift fan working effectively for vertical flight. At this point, stall speed is 
+determined and sizing calculations are done.       
+B. Propulsion System  
+ 
+A main lift fan used to lift most of the aircraft weight and 
+2 tilted motor s are used mainly for cruise flight . For this 
+reason main lift fan power consumption is the most 
+important issue to optimize hover endurance. TURAC  
+system uses ducted fan system with coaxial rotors which 
+enhance  systems aerodynamic performance as  shown in Fig. 
+5. Performance calculations are based on momentum theory 
+and flight tunnel tests with single prop eller, ducted propeller 
+and ducted coaxial propellers. [ 24]  
+ 
+ 
+Fig. 5: Main Lift Fan Diameter – Trust Comparison   
+ 
+Coaxial fan system is selected with two electric  motor and 
+speed controllers. Torque differentiation method is used for 
+yaw manoeuvres  while hovering and making vertical flight. 
+Electric driven system allows TURAC  to make precision 
+controlled flights in complex areas.  
+ 
+As the Variant A fully us es battery, the Variant B uses 
+fuel cells by taking into consideration its energy efficiency, 
+being environmentally friendly. The fuel cells are also 
+considered as constructional components of the TURAC.  
+ 
+Inner allocation properties of TURAC  VTOL UAV B 
+variant is given at Fig. 6. Main transportation fan  is close to 
+the middle of the vehicle. Front e lectric motors directed 
+upwards during VTOL phase stabilizes vehicle during hover 
+and are used at cruise flight.   
+ 
+Battery system near main duct can be removed f rom the 
+aircraft completely, thus vehicle can be prepared quickly for 
+mission. Lithium Polymer battery system, which has the 
+most energy density and which can be found in the market, 
+is chosen as battery system. Fuel tanks made from Kevlar 
+and near to cent re of gravity allow  varying fuel quantities for 
+0204060
+0 0,2 0,4 0,6 0,8 1 1,2Thrust (kg)  
+Propeller Diameter (m)  Main Lift Fan Diameter -Thrust  Comparision  
+P=7kW FM=0,7  
+Single Propeller (kg) Ducted Single Fan (kg)
+Ducted Coax Fan (kg)217  
+different mission conditions, and this provides a flexible 
+structure to the vehicle.  
+ 
+ 
+ Fig. 6: TURAC  preliminary design  layout properties  
+ 
+System, which is modified for main carrier, consists of 
+one main  engine, high efficiency special design fan and duct, 
+and thrust orientation system ( Fig. 7). For increasing 
+movement capability of the vehicle at windy and narrow 
+areas, two thrust orientation ( thrust vector system ) systems  
+below the main fan are mounted.  This system, aside from 
+providing convenience for stabilizing the aircraft, creates a 
+flat surface by completely closing at cruise flight and 
+decreases drag force due to the integration of main fan to the 
+body.  
+ 
+ 
+ 
+Fig. 7: TURAC  front design , main engine placement details  
+ 
+Single ducted fan system with single rotor makes vertical 
+flight unstable. For this reason, supporting systems are 
+needed and elect ric motor -propeller systems, which  could be  
+controlled more precisely than internal combustio n engines, 
+are designed with tilt mechanism. Small amount of weight is 
+lifted with tilted electric  motor -propeller system  to enhance 
+vertical flight stability.  
+  
+Fig. 8: TURAC  preliminary design   
+ 
+Results are summarized at Table 1. System can provide 
+different flight times to user according to size of payload.  
+ 
+TABLE I.  TURAC  PRELIMINARY DESIGN RESULTS  
+TURAC  Preliminary design Overall Information  
+Name  TURAC  VTOL UAV  
+Type  (conceptual ) Blended Wing UAV  
+Type  
+ (depending on energy 
+consumption ) Fuel/Electric Hybrid 
+System   
+(main carrier with fuel , 
+stabilizers with electric ) 
+Wing  Span  4,2 m 
+Length  1,82 m 
+MTOW  46 kg  
+Nom. Payload  8 kg 
+Speed  (Cruise ) 24 m/s  
+Max. Operational  Altitude  4000 m  
+Endurance   
+(with 10 kg payload ) 95 min 
+Endurance   
+(with 5 kg payload ) 135 min 
+Hover Flight Duration  10 min 
+Take -off/Landing  Type  VTOL / Conventional  
+Logistics  SUV or truck  
+ 
+ 
+IV. COMPARISON  OF TURAC  WITH OTHER UAV S  
+European Unmanned Association categorizes unmanned 
+air vehicles at 5 different main categories:  
+ Close  range  (Range less than 25 km ) 
+ Short  range  (Range between 25 -100 km ) 
+ Middle  range  (Range between 100 -200 km ) 
+218  
+ Long  range  (Range between 200 -500 km ) 
+ Endurance ( Operation range more than 500 km or 
+can stay at air more than 20 hours ) 
+ 
+Vertical Take -off – Landing unmanned air vehicles can be 
+found at the first three categories.  
+When compared to other VTOL UAVs, TURAC  becomes a 
+high speed mini UAV system platform  at high ranking  with 
+its high portability (Table 2), and payload capacity . As it is 
+upgradable in terms of design, it is a basic product which 
+can have higher endurance with additional fuel tanks and 
+battery. Productivity is an important parameter for UAV’s 
+which is directly connected with  endurance and payload 
+capacity  [24] .These properties  can be seen at Fig. 9-11. In 
+addition, it carries basic technology demonstration properties 
+for its bigger and smaller variants.  
+ 
+TABLE II.  COMPARISON OF VTOL  UAV  SYSTEMS  
+ 
+World  Mini 
+UAV  IAI Panther  IAI Mini Panther  Organic Air 
+Vehicle 1  Organic Air 
+Vehicle 2  TURAC  A 
+Variant 
+Preliminary  
+Design  
+Take -off 
+Weight (k g) 65 12,0 10,00  35,00  46,00  
+Payload  (kg) 8 2 0,5 3,5 8 
+WP/W MTOW  0,123  0,16 0,05 0,1 0,173  
+Endurance 
+time (h) 6,00 2,00 0,25 0,42 1,50 
+Range  (km)  60 - 10 20 70 
+Maximum 
+Altitude  (m) 3000  - 2400,00  2000  4000  
+Average 
+Speed  (km/h)  130 65,00  - 8000 72 
+Wing Span  
+(m) 2-8 1.5 - - 3 
+Productivity  
+(kg*h)  48 4 0,125  1,47 12  
+ 
+Fig. 9 : Take –off Weight and Useful Payload Comparison 
+of World Mini UAVs   
+ 
+ 
+Fig. 10 : Range and Endurance Comparison  of World Mini 
+UAVs   
+ 
+ 
+ 
+Fig. 11 : Average Velocity Comparison of World Mini 
+UAVs   
+65 
+12,00  10,00  35,00  46,00  
+8 2 0,5 3,5 8 Take off Weight (kg) Useful Payload (kg)
+0,0020,0040,0060,0080,00
+6,00  2,00  0,25  0,42  1,50  60 
+20 
+1 2 70 
+Endurance (h)  Range (km)
+050100150
+IAI Panther IAI Mini
+PantherOrganic Air
+Vehicle 2TURAC
+Preliminary
+Design
+Average Velocity (km/h)219  
+As seen in Figs. 8 -9, in comparison with Organic Air 
+Vehicles, TURAC  UAV has substantially more range and 
+payload carrying capacity as a result of being much bigger. 
+Moreover TURAC  carries the same payload with less 
+MTOW in comparison with IAI Panther which is one of the 
+best examples in the market.  
+ 
+V. CONCLUSION  
+In this study, a Commercial VTOL UAV Vehicles are 
+designed to produce and test the TURAC  UAV having 
+following features: Vertical take -off and landing, and 
+hovering like helicopter, High cruise speed and fixed -wing, 
+multi-functional and designed for civil p urpose . Several 
+trade -off studies are performed to for initial sizing. After 
+some more optimization studies, the geometry will be fixed. 
+Afterwards, the design will be produced and tested to 
+validate determined performance criteria.  
+ 
+REFERENCES  
+ 
+[1]  Sarris, Z ., Survey of UAV Applications in Civil Markets, Technical 
+University of Crete, June 2001.  
+[2]  Zongjian, L.,  UAV  for Mapping – Low Altituede Photorammetric 
+Survey, The International Archives of the Photogrammetry, Remote 
+Sensing and Spatial Information Scienc es. Vol. XXXVII. Part B1, 
+Beijing, 2008  
+[3] Dhaliwal, S.S,  Control of an Unconventional Double -Ducted Fan 
+VTOL UAV  For Obstructed Environments Using the MARC System, 
+MSc. Thesis., University of Calgary, August, 2009  
+[4]  Watts, A.C. and others,  Small Unmanned Aircraft Systems for Low 
+– Altitude Aerial Surveys, Journal of Wildlife Management 74(7): 
+1614 -1619, 2010  
+[5] Foy, B. W.,  Hover Controls for a Unique Small -Scale Thrust 
+Reversing UAV, MSc. Thesis, University  of Colorado, 2005  
+[6] Quick, D.,   Israe l Aerospace Industries unveils tilt -rotor Panther UAV 
+platform, AERO GIZMO, October, 2010  
+[7] Puri, .A, Survey of Unmanned Aerial Vehicles (UAV) for Traffic 
+Surveillance, University of South Florida, 2005  
+[8]  Ahn, O., Kim, J.M., and Lim, C.H.,  Smart UAV Research P rogram 
+Status Update: Achievement of  Tilt -Rotor Technology Development 
+and Vision Ahead, ICAS 2010, 27th International Congress of the 
+Aeronautical Sciences, 2010.  
+[9]  Michael, E.H.,   U.S.Geological Survey Unmanned Aircraft Systems 
+Project Office, National U nmanned Aircraft Systems (UAS) Project 
+Office, USA  
+[10] Smith, K.R. and Belina, F.W., Small V/STOL Aircraft Analysis, 
+Vol. 1, NASA Report CR -2425, 1974  
+[11] Ozlem A., Mehmet S. K., ve Ozan T. , 2004, Tilt Duct Vertical 
+Takeoff and Landing Uninhabited Aerial Vehicle C oncept Design 
+Study , Journal of Aircraft, 41 (2), pp.215 -223. 
+[12] Aksugur Mirac; Inalhan Gokhan,  2010, Design Methodology of a 
+Hybrid Propulsion Driven Electric Powered Miniature Tailsitter 
+Unmanned Aerial Vehicle , Journal of Intelligent & Robotic Systems, 
+57 (1-4), pp.  505-529. [13]   Okan,A.,  Flight Mechanics Analysis and Control of a Tilt Duct 
+UAV, Middle East Technical Univ., Aero. Eng. Dept., M.S. Thesis, 
+December 2000.  
+[14]  Armutcuoglu,  O.,  The Conceptual Design of a Tilt -Duct UAV, 
+Middle East Technical Univ., Aero. Eng. Dept., M.S. Thesis, 
+December 2000.  
+[15] Resonon Pika II Imaging  Spectrometer ,   HYPERLINK 
+"http://www.sciencedirect.com/science?_ob=RedirectURL&_method
+=externObjLink& _locator=url&_issn=17505836&_origin=article&_z
+one=art_page&_plusSign=%2B&_targetURL=http%253A%252F%25
+2Fwww.resonon.com%252Fpika.html" \t "externObjLink" 
+www.resonon.com/pika.html ,2013.  
+[16] Charlie J. K. , Kevin S. R., Rick L. L., Steven C. J., and John L. C., 
+Monitoring effects of a controlled subsurface carbon dioxide release 
+on vegetation using a hyperspectral imager, International Journal of 
+Greenhouse Gas Control, Volume 3, Issue 5, September 2009, pp. 
+626-632. 
+[17] Mitchell, J. J., Glenn, N. F., Anderson, M. O.,  Hruska,  R. C., Halford, 
+A., Baun, C., and  Nydegger, N. Unmanned Aerial Vehicle (UAV) 
+Hyperspectral Remote Sensing for Dryland Vegetation Monitoring , 
+2012.  
+[18] Jay, S., Lawrence, R., Repasky, K., & Keith, C. , Invasive Species 
+Mapping Using Low Cost Hyperspectr al Imagery, ASPRS 2009 . 
+[19] Nansen, C., Sidumo, A. J., & Capareda, S. , Variogram analysis of 
+hyperspectral data to characterize the impact of biotic and abiotic 
+stress of maize plants and to estimate biofuel potential.  Applied 
+spectroscopy,  64(6), 627 -636, 201 0. 
+[20] Tindall, J. A.,  Deconvolution of Plant Type (s) for Homeland Security 
+Enforcement Using Remote Sensing on a UAV Collection Platform. 
+Geological Survey Denver Co ., 2006.  
+[21] Salem, F ., and Menas K., Hyperspectral image analysis for oil spill 
+mitigati on, Asian Conference on Remote Sensing, vol. 5, p. 9. 2001.  
+[22] Darvishsefat, A. A., Tobias W. K., and Klaus I. I., Application of 
+hyperspectral data for forest stand mapping.  Symposium on 
+Geospatial Theory, Processing and Applications, Ottawa. 2002.  
+[23] Tuominen, J. , "Detection of environmental change using hyperspectral 
+remote sensing at Olkiluoto repository site.", 2011 . 
+[24] Johnson, Wayne (2010). NDARC - NASA Design and Analysis of 
+Rotorcraft Theoritical Basis and Architechture , NASA Ames Research 
+Center, American Helicopter Society Aeromechanics Specialists’ 
+Conference, San Francisco,CA, Ocak 2010.  
+[25] Timoty Edward lee, Lee, T.A., Design and Performance of a Ducted 
+Coaxial Rotor in Hover and Forward Flght, University of Maryland, 
+Aero. Eng. Dept., M.S. Thesis, 2010  
+[26] Pereira, J.L., Hover and Wind Tunnel Testing of Shrouded Rotors for 
+Improved Micro Air Vehicle Design, University of Maryland, PhD  
+Thesis, 2008  
+ 
+ 
+ 
+ 
+ 220
